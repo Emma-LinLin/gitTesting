@@ -26,6 +26,13 @@ namespace gitTesting
                 Console.WriteLine($"Enter position {i + 1}: ");
                 userList[i] = Console.ReadLine();
             }
+
+            Console.WriteLine($"Here's your top-{topPlaces} for {listName}: ");
+
+            for(int i = 0; i < userList.Length; i++)
+            {
+                Console.WriteLine(userList[i]);
+            }
         }
     }
 }
