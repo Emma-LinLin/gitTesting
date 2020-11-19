@@ -35,6 +35,8 @@ namespace gitTesting
             }
 
             //Commit test
+
+            //Commit and push test
         }
     }
 }
